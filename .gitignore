@@ -1,1 +1,15 @@
-/myenv
+# venv
+myenv/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Chroma DB (通常也不該進 git，改用重建或另存)
+chroma_db/*
+!chroma_db/.gitkeep
+
+docs/*
+!docs/.gitkeep
